@@ -21,4 +21,3 @@
 - docker push sudkul/udagram-api-user:v1
 - docker push sudkul/udagram-frontend:v1
 - docker push sudkul/udagram-reverseproxy:v1
-# Do similar for other three images
