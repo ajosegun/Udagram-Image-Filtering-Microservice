@@ -23,13 +23,15 @@ spec:
       containers:
       - image: ajosegun/udagram-api-user:v1
         name: backend-user
+        ports:
+            - containerPort: 8082
         imagePullPolicy: Always
         resources:
           requests:
-            memory: "512Mi"
+            memory: "1024Mi"
             cpu: "250m"
           limits:
-            memory: "1024Mi"
+            memory: "2048Mi"
             cpu: "500m"
         env:
         - name: URL
